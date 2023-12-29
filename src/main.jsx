@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/home/Home.jsx'
 import About from './components/about/About.jsx'
+import Contact from './components/contact/contact.jsx'
 
 //Here, we pass a array of objects that specify the path and the elements to render in that path
 //Add children to specify the other routes
@@ -21,6 +22,10 @@ const router= createBrowserRouter([
 {
   path: "about",
   element: <About/>
+},
+{
+  path: "contact",
+  element: <Contact/>
 }
 ]
 }
