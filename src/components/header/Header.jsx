@@ -12,8 +12,8 @@ export default function Header() {
           <Link to="/" className="flex items-center">
             {/* Logo Portion (Left) */}
             <img
-              src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-              className="mr-3 h-12"
+              src="/src/assets/mus.png"
+              className="mr-3 h-14"
               alt="Logo"
             />
           </Link>
