@@ -7,6 +7,7 @@ import Home from './components/home/Home.jsx'
 import About from './components/about/About.jsx'
 import Contact from './components/contact/contact.jsx'
 import User from './components/user/user.jsx'
+import Github from './components/github/github.jsx'
 
 //Here, we pass a array of objects that specify the path and the elements to render in that path
 //Add children to specify the other routes
@@ -40,6 +41,7 @@ const router= createBrowserRouter(
       <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact/>}/>
       <Route path='user/:id' element={<User/>}/>
+      <Route path='github' element={<Github/>}/>
     </Route>
   )
 );
