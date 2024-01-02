@@ -10,7 +10,7 @@ export default function Footer() {
                         <Link to="/" className="flex items-center">
                             <img
                                 src="/src/assets/mus.png"
-                                className="mr-3 h-26"
+                                className="mr-3 h-28"
                                 alt="Logo"
                             />
                         </Link>
