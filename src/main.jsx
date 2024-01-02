@@ -10,9 +10,9 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/about/About.jsx";
-import Contact from "./components/contact/contact.jsx";
-import User from "./components/user/user.jsx";
-import Github from "./components/github/github.jsx";
+import Contact from "./components/contact/Contact.jsx";
+import User from "./components/user/User.jsx";
+import Github from "./components/github/Github.jsx";
 
 //Here, we pass a array of objects that specify the path and the elements to render in that path
 //Add children to specify the other routes
