@@ -12,7 +12,7 @@ export default function Header() {
           <Link to="/" className="flex items-center">
             {/* Logo Portion (Left) */}
             <img
-              src="/src/assets/mus.png"
+              src="https://i.postimg.cc/9MHrJhBh/mus.png"
               className="mr-3 h-14"
               alt="Logo"
             />
