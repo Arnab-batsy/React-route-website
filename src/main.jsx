@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/about/About.jsx";
-import Contact from "./components/contact/Contact.jsx";
+import Contact from "./components/contact/contact.jsx";
 import User from "./components/user/User.jsx";
 import Github from "./components/github/Github.jsx";
 
